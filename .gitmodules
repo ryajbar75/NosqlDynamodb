@@ -1,0 +1,3 @@
+[submodule "front-dynamodb/DynanoDb-SpringBoot-Demo"]
+	path = front-dynamodb/DynanoDb-SpringBoot-Demo
+	url = https://github.com/ryajbar75/NosqlDynamodb.git
