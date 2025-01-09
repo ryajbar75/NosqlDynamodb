@@ -1,0 +1,112 @@
+/* ----- Layout Général ----- */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background: #f4f7f9;
+  color: #333;
+}
+
+/* ----- Barre latérale ----- */
+.dashboard-sidebar {
+  width: 250px;
+  background-color: #2C3E50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-sidebar button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-sidebar button:hover {
+  background-color: #2980b9;
+}
+
+/* ----- Contenu principal ----- */
+.dashboard-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-header {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/* ----- Contenu ----- */
+.dashboard-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* ----- Contenu dynamique (Action sélectionnée) ----- */
+.action-content {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+/* ----- Cartes ----- */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1.5rem;
+  width: 280px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ----- Pied de page ----- */
+.dashboard-footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #ecf0f1;
+  border-top: 1px solid #dcdcdc;
+  font-size: 0.9rem;
+}

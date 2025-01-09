@@ -1,0 +1,52 @@
+/* src/components/AddDepartmentForm.css */
+
+.add-department-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .add-department-form h3 {
+    margin-bottom: 20px;
+  }
+  
+  .add-department-form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-department-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .add-department-form input,
+  .add-department-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-department-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .add-department-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-department-form button:hover {
+    background-color: #45a049;
+  }
+  
+  
